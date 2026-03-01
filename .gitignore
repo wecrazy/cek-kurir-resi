@@ -1,25 +1,28 @@
-# CakePHP 3
+# Dependencies
+/vendor/
 
-/vendor/*
-/config/app.php
+# Environment
+/.env
 
-/tmp/cache/models/*
-!/tmp/cache/models/empty
-/tmp/cache/persistent/*
-!/tmp/cache/persistent/empty
-/tmp/cache/views/*
-!/tmp/cache/views/empty
-/tmp/sessions/*
-!/tmp/sessions/empty
-/tmp/tests/*
-!/tmp/tests/empty
+# Runtime / cache
+/storage/linitrans.ini
 
-/logs/*
-!/logs/empty
+# IDE & OS
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
 
-# CakePHP 2
+# Logs
+*.log
 
-/app/tmp/*
-/app/Config/core.php
-/app/Config/database.php
-/vendors/*
+# Testing
+.phpunit.result.cache
+.phpunit.cache/
+coverage/
+
+# Composer
+composer.phar
