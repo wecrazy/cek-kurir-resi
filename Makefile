@@ -10,8 +10,8 @@ install: ## Install production dependencies
 dev: ## Install all dependencies (including dev)
 	composer install
 
-serve: ## Start PHP built-in server on port 8000
-	php -S localhost:8000 -t public
+serve: ## Start PHP built-in server on port 8900
+	php -S localhost:8900 -t public
 
 test: ## Run PHPUnit tests
 	./vendor/bin/phpunit
