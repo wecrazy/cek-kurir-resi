@@ -11,7 +11,7 @@ dev: ## Install all dependencies (including dev)
 	composer install
 
 serve: ## Start PHP built-in server on port 8900
-	php -S localhost:8900 -t public
+	php -S 0.0.0.0:8900 -t public
 
 test: ## Run PHPUnit tests
 	./vendor/bin/phpunit
